@@ -1,0 +1,27 @@
+.pro-label-title{
+    display: flex;
+    position: relative;
+    margin-top: .41rem;
+    margin-bottom: .245rem;
+    line-height: .245rem;
+    font-size: .25rem;
+    color: #000;
+    font-weight: 700;
+}
+.pro-label-name span{
+    display: inline-block;
+    background: rgba(255,89,52,.08);
+    margin: 0 .245rem .245rem 0;
+    padding: 0 .25rem;
+    min-width: 0.67rem;
+    height: 0.56rem;
+    line-height: .56rem;
+    border-radius: .28rem;
+    text-align: center;
+    font-size: .25rem;
+    color: #000000;
+}
+.pro-label-name .select-box{
+    border: .02rem solid #ff5934;
+    color: #f56600;
+}

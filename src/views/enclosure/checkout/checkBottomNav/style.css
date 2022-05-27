@@ -1,0 +1,48 @@
+#check-Bottom-Nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#check-Bottom-Nav .info-tips{
+    display: block;
+    background: #fbf3c4;
+    padding: .125rem .208rem;
+    height: 27px;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    line-height: 15px;
+    color: #b57842;
+    opacity: .7;
+}
+#check-Bottom-Nav .check-bottom{
+    display: flex;
+    height: 50px;
+    width: auto;
+    justify-content: space-between;
+}
+.check-bottom .ui-box{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.check-bottom .ui-calc{
+    line-height: 50px;
+}
+.ui-calc span{
+    font-size: .3125rem;
+    color: #ff4d14;
+    font-family: Helvetica Neue,Tahoma,Arial,PingFangSC-Regular,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.check-bottom .check-btn{
+    display: block;
+    background-color: #ff5722;
+    height: 1rem;
+    line-height: 1rem;
+    border: 1px solid #ff5722;
+    font-size: .3125rem;
+    color: #fff;
+}

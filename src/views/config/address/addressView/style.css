@@ -1,0 +1,57 @@
+#address-view{
+    position: relative;
+    width: 100%;
+    height: 1.6875rem;
+    padding:0 calc(2rem / 3) 0 calc(1rem / 3);
+}
+
+#address-view ul{
+    width: auto;
+    height: auto;
+    padding: .24rem 0;
+}
+.li-identity{
+    height: .48rem;
+    font-family: Helvetica Neue,Tahoma,Arial,PingFangSC-Regular,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.li-identity .consignee{
+    margin-right: calc(1rem / 6);
+    font-size: calc(1rem / 3);
+    color: rgba(0,0,0,.87);
+    font-weight: 800;
+    vertical-align: middle;
+}
+.li-identity .phone{
+    margin-right: calc(1rem / 6);
+    font-size: .292rem;
+    color: rgba(0,0,0,.87);
+    vertical-align: middle;
+}
+.li-identity em{
+    color: #fff;
+    display: inline-block;
+    padding: .03rem .06rem;
+    font-size: calc(10rem / 48);
+    font-style: normal;
+    background-color: #ff5934;
+    border-radius: .04rem;
+    line-height: .2rem;
+}
+.li-address{
+    display: block;
+    height: calc(2rem / 3);
+    width: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.li-address p{
+    display:inline;
+    font-size: .25rem;
+}
+.address-top-border{
+    border-top: .01rem solid rgba(0,0,0,.1);
+}

@@ -1,0 +1,82 @@
+.cell-top-fill{
+    height: 1.53rem;
+}
+.cell-top-fill img{
+    height: inherit;
+    width: 5.1rem;
+}
+.category_title{
+    display: block;
+    margin-top: 0.3125rem;
+    width: 5.25rem;
+    font-size: .28rem;
+    text-align: left;
+    font-weight: 700;
+    height: .63rem;
+    line-height: .63rem;
+}
+.category_group_expand{
+    height: 1.53rem;
+    width: 100%;
+    background: #f8f8f8;
+    border-radius: .11rem;
+    margin-bottom: .167rem;
+}
+.category_group_expand .exposure-item{
+    display: block;
+    height: inherit;
+    padding: 0.073rem;
+    align-items: center;
+}
+.exposure-item img{
+    height: 1.385rem;
+    width: 1.385rem;
+    float: left;
+}
+.exposure-item .pro-right{
+    height: 1.385rem;
+    float: left;
+}
+.pro-right div{
+    
+    padding-left: 0.1rem;
+    font-size: .3rem;
+    color: #333;
+    font-family: Helvetica Neue,Tahoma,Arial,PingFangSC-Regular,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+}
+.pro-right .pro-right-title{
+    padding-top: 0.25rem;
+}
+.pro-right .pro-right-price{
+    padding-top: 0.15625rem;
+}
+.category_group{
+    width: 100%;
+}
+.category_group .product{
+    display: block;
+    float: left;
+    width: calc(100% / 3);
+    height: 1.6rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+.product .img{
+    display: flex;
+    height: 1.04rem;
+    width: 100%;
+    justify-content: center;
+}
+.img img{
+    height: inherit;
+    width: 1.04rem;
+}
+.product .bottom-title{
+    margin-top: 0.26rem;
+    height: 0.3rem;
+    text-align: center;
+    font-size: .22rem;
+    color: rgba(0,0,0,.54);
+    font-family: Helvetica Neue,Tahoma,Arial,PingFangSC-Regular,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}

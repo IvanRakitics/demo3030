@@ -1,0 +1,106 @@
+#login-container{
+    width: 300px;
+    margin: 160px auto 0 auto;
+}
+.input-container{
+    height: 30px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box;
+}
+.input-container input{
+    border: none;
+    display: block;
+    float: left;
+    padding-left: 5px;
+    width: 89%;
+    font-size: 16px;
+    height: 100%;
+    line-height: 0.59rem;
+}
+.input-container i{
+    color: rgb(233, 32, 61);
+    width: 10%;
+    float: left;
+    height: 100%;
+    line-height: 30px;
+    font-size: 17px;
+    text-align: center;
+}
+.phone-container{
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+}
+.phone-container i{
+    display: block;
+    float: left;
+    width: 10%;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+}
+.phone-container input{
+    float: left;
+    padding-left: 5px;
+    width: 55%;
+    height: 100%;
+    line-height: 100%;
+    font-size: 16px;
+    vertical-align: bottom;
+}
+.phone-container button{
+    float: left;
+    width: 34%;
+    height: 100%;
+    border: 0;
+    background-color: #fff;
+    line-height: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #ff5555;
+    
+}
+.btn-login{
+    width: 100%;
+    background-color: #ff5555;
+    color: #fff;
+    border: solid 1px #ff5555;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px 0;
+    text-align: center;
+}
+.input-container-error{
+    border: solid 1px #ff5555;
+}
+
+@font-face {
+    font-family: "iconfont"; /* Project id 3321133 */
+    src: url('./icon/iconfont.woff2?t=1649730932481') format('woff2'),
+         url('./icon/iconfont.woff?t=1649730932481') format('woff'),
+         url('./icon/iconfont.ttf?t=1649730932481') format('truetype');
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-key:before {
+    content: "\e6d9";
+  }
+  
+  .icon-tablet:before {
+    content: "\e920";
+  }
+  
+  

@@ -1,0 +1,41 @@
+#category-title{
+    position: fixed;
+    top: 50px;
+    bottom: 50px;
+    left: 0;
+    right: 80%;
+    box-sizing: border-box;
+}
+#category-title .list-ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.list-ul .list-navbar, .list-ul .nav-select{
+    position: relative;
+    display: block;
+    height: 0.9375rem;
+    line-height: 0.9375rem;
+    text-align: center;
+}
+.list-ul .nav-select span{
+    color: #333;
+    font-weight: 700;
+    font-size: .25rem;
+    font-family: Helvetica Neue,Tahoma,Arial,PingFangSC-Regular,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+}
+.list-ul .nav-select::before{
+    content: '';
+    position: absolute;
+    top: 0.3rem;
+    left: 0;
+    width: 0.05rem;
+    height: 0.3rem;
+    background-color: #ff5934;
+}
+.list-navbar span{
+    font-size: .25rem;
+    color: #666;
+    font-family: Helvetica Neue,Tahoma,Arial,PingFangSC-Regular,Hiragino Sans GB,Microsoft Yahei,sans-serif;
+}

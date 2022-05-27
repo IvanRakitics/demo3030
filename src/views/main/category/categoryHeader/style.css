@@ -1,0 +1,35 @@
+#category-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    display: flex;
+    background-color: #ff5555;
+    height: 50px;
+    padding: 0 0.34375rem;
+    align-items: center;
+}
+#category-header .app-header{
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    height: 30px;
+    width: 100%;
+    border-radius: .347rem;
+    border:0;
+    justify-content: space-between;
+}
+.app-header i{
+    display: block;
+    float: left;
+    width: 36px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.app-header input{
+    float: left;
+    width: calc(100% - 36px);
+    margin-right:12px;
+}
