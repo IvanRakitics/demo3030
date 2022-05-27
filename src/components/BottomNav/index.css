@@ -1,0 +1,72 @@
+
+.nav-footer{
+     background-color: #fff;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     box-shadow: 0 0 0 1px #e1e1e1;
+     text-decoration: none;
+}
+
+.clear-fix{
+    height: 50px;
+    padding-top: 5px;
+}
+.clear-fix li{
+    height: 45px;
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+
+
+.clear-fix li i{
+    display: block;
+    font-size: 28px;
+    height: 30px;
+}
+.clear-fix span{
+    display: block;
+    font-size: 8px;
+    height: 15px;
+    line-height: 15px;
+}
+.clear-fix a{
+    color:#232323;
+}
+@font-face {
+    font-family: "iconfont"; /* Project id 3293540 */
+    src: url('./icon/iconfont.woff2?t=1648716665752') format('woff2'),
+         url('./icon/iconfont.woff?t=1648716665752') format('woff'),
+         url('./icon/iconfont.ttf?t=1648716665752') format('truetype');
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-home:before {
+    display: position;
+    top:-50px;
+    content: "\e69b";
+
+  }
+  
+  .icon-marks:before {
+    content: "\e6df";
+  }
+  
+  .icon-cart:before {
+    content: "\e6e6";
+  }
+  
+  .icon-service:before {
+    content: "\e67b";
+  }
+  
+  

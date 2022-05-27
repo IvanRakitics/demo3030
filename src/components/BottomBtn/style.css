@@ -1,0 +1,22 @@
+.bottom-btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 201;
+}
+.bottom-btn .btn-box{
+    display: block;
+    height: 1.04rem;
+    width: auto;
+    padding: .12rem .31rem;
+}
+.bottom-btn .btn-box .action-btn{
+    background-color: #ff5934;
+    border-radius: .39rem;
+    width: 100%;
+    line-height: .8rem;
+    text-align: center;
+    font-size: .3rem;
+    color: #fff;
+}

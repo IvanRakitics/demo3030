@@ -1,0 +1,129 @@
+.footer-buttom{
+    background: transparent;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 198;
+}
+.collection-box{
+   width: 100%;
+   height: 50px;
+   border: 1px solid rgba(0,0,0,.1);
+}
+.link-box{
+    float:left;
+    width: 40%;
+    height: 100%;
+    padding-left: 10px;
+}
+.link-box ul{
+    display: flex;
+    width: auto;
+    height: 100%;
+}
+.link-box li{
+    display: block;
+    width: calc(100% / 3);
+    height: 100%;
+}
+
+.char-box{
+    display: flex;
+    align-items: center;
+}
+
+.char-box span{
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(0,0,0,.54);
+}
+.char-box i {
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(0,0,0,.54);
+}
+
+
+
+
+
+
+.action-box{
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.action-button{
+    display: flex;
+    width: 100%;
+    height: 36px;
+}
+.action-button a{
+    display: block;
+    height: 100%;
+    line-height: 36px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+.action-button .action-left{
+    
+    background-image: linear-gradient(90deg,#fdcf00,#fd9b00);
+    width: 50%;
+    height: 100%;
+    border-radius:  25px 0 0 25px;
+}
+.action-button .action-right{
+
+    background-image: linear-gradient(90deg,#ff7310,#fe3f00);
+    width: 50%;
+    height: 100%;
+    border-radius: 0 25px 25px 0;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: "iconfont"; /* Project id 3293540 */
+    src: url('./icon/iconfont.woff2?t=1649669891643') format('woff2'),
+         url('./icon/iconfont.woff?t=1649669891643') format('woff'),
+         url('./icon/iconfont.ttf?t=1649669891643') format('truetype');
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-close:before {
+    content: "\e69e";
+  }
+  
+  .icon-cart-buy:before {
+    content: "\e6af";
+  }
+  
+  .icon-home-buy:before {
+    content: "\e6b8";
+  }
+  
+  .icon-service-buy:before {
+    content: "\e649";
+  }
+  

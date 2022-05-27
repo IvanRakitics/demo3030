@@ -1,0 +1,19 @@
+#right-btn{
+    position: absolute;
+    right: 0;
+    top:0;
+    bottom: 0;
+    display: flex;
+    width: calc(2rem / 3);
+    align-items: center;
+    justify-content: center;
+}
+#right-btn .right-icon{
+    display: inline-block;
+    width: 0.2rem;
+    height: .2rem;
+    border-left: 1px solid currentColor;
+    border-top: 1px solid currentColor;
+    transform: translate3d(-50%, 0, 0) rotate(135deg);
+    -webkit-transform: translate3d(-50%, 0, 0) rotate(135deg);
+}

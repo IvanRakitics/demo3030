@@ -1,0 +1,39 @@
+#common-header{
+    background-color: #ff5555;
+    color: #fff;
+    padding: 16px 10px;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+}
+#common-header h1{
+    display: inline;
+    font-size: 16px;
+    line-height: 1;
+}
+#common-header .back-icon{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 10px;
+    top:4px;
+}
+
+
+@font-face {
+    font-family: "iconfont"; /* Project id 3293540 */
+    src: url('./icon/iconfont.woff2?t=1649053474000') format('woff2'),
+         url('./icon/iconfont.woff?t=1649053474000') format('woff'),
+         url('./icon/iconfont.ttf?t=1649053474000') format('truetype');
+  }
+  
+
+  
+  .icon-back:before {
+    content: "\e662";
+    font-size: 32px;
+  }
+  

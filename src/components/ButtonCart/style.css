@@ -1,0 +1,61 @@
+.common-button-box{
+    background-color: #f4f4f4;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.common-button-box .box-right{
+    display: block;
+    width: calc(100% / 3);
+    height: 100%;
+    line-height: 0.6rem;
+}
+.common-button-box span{
+    display: block;
+    background-color: white;
+    margin: 2px 0;
+    width: calc(100% / 3);
+    height: calc(100% - 4px);
+    line-height: 0.6rem;
+    font-size: 16px;
+}
+.common-button-box .box-left{
+    display: block;
+    width: calc(100% / 3);
+    height: 100%;
+    line-height: 0.6rem;
+}
+
+
+@font-face {
+    font-family: "iconfont"; /* Project id 3336065 */
+    src: url('./icon/iconfont.woff2?t=1650187240857') format('woff2'),
+         url('./icon/iconfont.woff?t=1650187240857') format('woff'),
+         url('./icon/iconfont.ttf?t=1650187240857') format('truetype');
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-delete:before {
+    content: "\e67e";
+    font-size: 22px;
+  }
+  
+  .icon-line:before {
+    content: "\e7fd";
+    font-size: 16px;
+  }
+  
+  .icon-Cross:before {
+    content: "\e912";
+    font-size: 25px;
+  }
+  
+  
